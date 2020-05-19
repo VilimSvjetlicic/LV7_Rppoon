@@ -26,6 +26,7 @@ namespace Rppoon_LV7_Z7
             Console.WriteLine(cart.Accept(rentVisitor));
 
             cart.RemoveItem(dvd2);
+
             Console.WriteLine(cart.Accept(rentVisitor));
         }
     }
